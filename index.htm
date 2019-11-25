@@ -6,6 +6,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato|Odibee+Sans&display=swap" rel="stylesheet">
 
 		<!--Icons-->
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -13,16 +15,18 @@
 
 	</head>
 	<body>
-		<h1>Untitled Jane Game</h1>
+		<h1 id= "title">Untitled Jane Game</h1>
 
 		<ul class="nav">
 	        <li><a class="nav-link" href="#home" onclick="">Home</a></li>
-	        <li><a class="nav-link" href="#about">About</a></li>
+			<li><a class="nav-link" href="#about">About</a></li>
+			<li><a class="nav-link" href="#characters">Characters</a></li>
 	        <li><a class="nav-link" href="#download">Download</a></li>
 	        <li><a class="nav-link" href="#contact">Contact</a></li>
     	</ul>
 
 		<div id= "home">
+				<img id="homeBanner" src="UntitledJaneGame_Banner.png">
 			
 		</div>
 
@@ -31,23 +35,29 @@
 			<body>Our main character, Ms. Jane, is trying to get a career in the male dominated tech industry. She must overcome the challenges of women in tech in order to have a successful career.<br></body>
 
 			<!--Splash Image, kinda like Yandere Simulator?-->
+			
 
 			<body>The goal is to complete as many tasks as possible for boss man and get promoted to CEO. Each level has a number of tasks that Ms. Jane must complete before time runs out.</body>
-
-			<!--Game Images-->
-
-			<h2>Characters</h2>
+		</div>
+			<!--Game Images and Game Trailer -->
+		<div id= "characters">
+			<h1>Characters</h1>
 			<!--Sprite Image with name on same line after-->
-			<h3>Jane (The Heroine)</h3>
-			<body>AHHHH</body>
+			<h3>Jane [Our Heroine]</h3>
+			<img src= "janeForward.png" class="chara">
+			<br>
+			<body>AH</body>
 
 			<h3>Co-Workers</h3>
-			<!--Sprite Image with name on same line after-->
-			<body>AHHHH</body>
+			<img src= "worker1.png" class="chara">
+			<img src= "worker2.png" class="chara">
+			<br>
+			<body>AAHH</body>
 
-			<h3>Geoff (The Boss)</h3>
-			<!--Sprite Image with name on same line after-->
-			<body>AHHHH</body>
+			<h3>Geoff [The Boss]</h3>
+			<img src= "geoffForward.png" class="chara">
+			<br>
+			<body>AAAAAHHHHHHH</body>
 		</div>
 
 		<div id= "download">
@@ -58,47 +68,48 @@
 		<div id= "contact">
 			<h1>Contact</h1>
 
-			<h2>Danielle Muhlenberg</h2>
-			<ul>
-				<li><a href= "https://github.com/danielle-io" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
-				<li><a href= "mailto:dmuhlenb@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
-			</ul>
+				<h2>Danielle Muhlenberg</h2>
+				<ul>
+					<li><a href= "https://github.com/danielle-io" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
+					<li><a href= "mailto:dmuhlenb@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
+				</ul>
 
-			<h2>Dianne Ison</h2>
-			<ul>
-				<li><a href= "https://github.com/" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
-				<li><a href= "mailto:isond@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
-			</ul>
+				<h2>Dianne Ison</h2>
+				<ul>
+					<li><a href= "https://github.com/isond" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
+					<li><a href= "mailto:isond@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
+				</ul>
 
-			<h2>Melissa Torres</h2>
-			<ul>
-				<li><a href= "https://github.com/" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
-				<li><a href= "mailto:mmtorre1@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
-			</ul>
+				<h2>Melissa Torres</h2>
+				<ul>
+					<li><a href= "https://github.com/melissamtorres" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
+					<li><a href= "mailto:mmtorre1@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
+				</ul>
 
-			<h2>Nina Brock</h2>
-			<ul>
-				<li><a href= "https://github.com/" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
-				<li><a href= "mailto:nlbrock@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
-			</ul>
+				<h2>Nina Brock</h2>
+				<ul>
+					<li><a href= "https://github.com/" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
+					<li><a href= "mailto:nlbrock@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
+				</ul>
 
-			<h2>Rosetta Pendleton</h2>
-			<ul>
-				<li><a href= "https://github.com/" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
-				<li><a href= "mailto:rpendlet@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
-			</ul>
+				<h2>Rosetta Pendleton</h2>
+				<ul>
+					<li><a href= "https://github.com/rosypen" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
+					<li><a href= "mailto:rpendlet@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
+				</ul>
 
-			<h2>Cheyenne Chavez</h2>
-			<ul>
-				<li><a href= "https://github.com/" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
-				<li><a href= "mailto:cheyenmc@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
-			</ul>
+				<h2>Cheyenne Chavez</h2>
+				<ul>
+					<li><a href= "https://github.com/suncheyn" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
+					<li><a href= "mailto:cheyenmc@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
+				</ul>
 
-			<h2>Alyssa Joy Prodigalidad</h2>
-			<ul>
-				<li><a href= "https://github.com/aprodiga" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
-				<li><a href= "mailto:aprodiga@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
-			</ul>
+				<h2>Alyssa Joy Prodigalidad</h2>
+				<ul>
+					<li><a href= "https://github.com/aprodiga" target= "_blank"><i class="devicon-github-plain-wordmark"></i></a></li>
+					<li><a href= "mailto:aprodiga@uci.edu"><i class="fa fa-envelope-o"></i></a></li>
+				</ul>
+				
 		</div>
 	</body>
 </html>

@@ -6,12 +6,25 @@ body
 h1
 {
 	color: white;
-	text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #ff0000;
+    font-family: 'Odibee Sans', cursive;
+}
+
+h3
+{
+    font-family: 'Odibee Sans', cursive;
+
+}
+
+body
+{
+    font-family: 'Lato', sans-serif;
 }
 
 li
 {
     display: inline-block;
+    
 }
 
 li a
@@ -21,6 +34,7 @@ li a
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -35,6 +49,25 @@ li a
     margin: 0px;
     padding: 0px;
     font-size: 23px;
+}
+
+.chara
+{
+    width: 10%;
+}
+
+#homeBanner
+{
+    display: block;
+    /*margin-left: auto;
+    margin-right: auto; */
+    width: 100%;
+}
+
+#title
+{
+    font-size: 64px;
+    text-align: center;
 }
 
 #contact li
