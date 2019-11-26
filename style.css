@@ -38,11 +38,6 @@ li a
     text-shadow: 2px 2px #ff0000;
 }
 
-/* Change the link color to #111 (black) on hover */
-.nav li a:hover {
-    background-color: #111;
-}
-
 .nav
 {
     width: auto;
@@ -50,6 +45,12 @@ li a
     margin: 0px;
     padding: 0px;
     font-size: 23px;
+    background-color: hsl(0, 100%, 50%, .2);
+    text-align: center;
+}
+
+.nav li a:hover {
+    background-color: hsl(0, 0%, 100%, .3);
 }
 
 .chara
