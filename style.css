@@ -35,6 +35,7 @@ li a
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
+    text-shadow: 2px 2px #ff0000;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -70,7 +71,53 @@ li a
     text-align: center;
 }
 
-#contact li
+#contact_top
 {
-	font-size: 85px;
+    position: relative;
+    left: 15em;
+}
+
+#contact_bottom
+{
+    position: relative;
+    left: 3em;
+}
+
+.person_top, .person_bottom
+{
+    display: table-cell; 
+    text-align: justify;
+}
+
+.person_top
+{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 1em;
+}
+
+.person_bottom
+{
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.contact_icons
+{
+	font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.contact_icons a
+{
+    color: white;
+}
+
+.contact_icons a:active
+{
+    position: relative;
+    top: 2px;
 }
