@@ -76,15 +76,16 @@ h1 a:hover
 
 .chara
 {
-    width: 10%;
+    width: 25%;
 }
 
 #homeBanner
 {
     display: block;
-    /*margin-left: auto;
-    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto; 
     width: 100%;
+
 }
 
 #title
