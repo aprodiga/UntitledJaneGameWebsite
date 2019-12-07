@@ -67,6 +67,13 @@ video
     z-index: -100;
 }
 
+#download img
+{
+    height: 6em;
+    width: 6em;
+    padding: 1em;
+}
+
 .nav
 {
     width: auto;
