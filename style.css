@@ -59,6 +59,14 @@ h1 a:hover
     text-decoration: underline;
 }
 
+video
+{
+    width: 65%;
+    height: 35em;
+    object-fit: cover;
+    z-index: -100;
+}
+
 .nav
 {
     width: auto;
